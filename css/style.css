@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("http://cdn.pcwallart.com/images/clear-blue-sky-wallpaper-4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#pageTitle {
+	padding-top: 40px;
+	color: white;
+	font-weight: 400;
+}
+
+#content {
+	color: #fff;
+	border: 2px solid #fff;
+	width: 40%;
+	margin: auto;
+	padding: 50px;
+	border-radius: 5px;
+	text-align: center;
+	background: rgba(255,255,255,.2);
+}
+
+#weatherIcon {
+	vertical-align: middle;
+	background: rgba(255,255,255,.2);
+	border-radius: 4px;
+	padding: 24px;
+	margin-top: 10px;
+	width: 160px;
+}
+
+#signature {
+	color: white;
+	opacity: .7;
+	font-size: .9rem;
+}
+
+#city, #temperature {
+	font-size: 4em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
